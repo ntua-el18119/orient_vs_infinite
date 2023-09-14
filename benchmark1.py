@@ -217,7 +217,7 @@ if __name__ == "__main__":
 # Show the plot
         plt.tight_layout()
         plt.show()
-database_name = 'Tolkien-Arda'
+        database_name = 'Tolkien-Arda'
         client = connect_to_orientdb(database_name)
         
         #database_name = "GratefulDeadConcerts"  # Replace with the name of your database
